@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-black text-white;
+}
+
+button {
+  @apply p-2 disabled:grayscale;
+}
